@@ -34,6 +34,7 @@ int main() {
         vis[person[i]] = vis2[person[i]] = 1500;
     }
     while (cin >> s && s != "0") {
+       // cout << s << endl;
         t++;
         cin >> n;
         // cout << "第" << t << "场赛时:" << endl;
